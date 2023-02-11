@@ -1,0 +1,12 @@
+.carusel {
+    text-align: center;
+    margin: 20px 0;
+    .caruselItem {
+        border-radius: 30px;
+        overflow: hidden;
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}

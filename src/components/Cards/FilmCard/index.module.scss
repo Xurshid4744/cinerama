@@ -1,0 +1,143 @@
+.filmCardContainer {
+    position: relative;
+    height: 261px;
+    width: 190px;
+    border-radius: 0.6rem;
+    overflow: hidden;
+    .filmCard {
+        .filmCardImages {
+            transition: 0.3s;
+            &:hover {
+                cursor: pointer;
+                .title {
+                    left: 0;
+                    font-size: 14px;
+                    filter: grayscale(80%);
+                }
+                .format {
+                    left: 0;
+                    font-size: 14px;
+                    bottom: 25px;
+                    filter: grayscale(80%);
+                }
+                .filmImg {
+                    filter: grayscale(80%);
+                    height: 261px;
+                    width: 190px;
+                    left: 0;
+                }
+                .age {
+                    right: 5px;
+                    font-size: 14px;
+                    filter: grayscale(80%);
+                }
+                .play {
+                    display: block;
+                }
+            }
+            .filmImg {
+                position: absolute;
+                bottom: 0;
+                left: 10px;
+                object-fit: cover;
+                z-index: 30;
+                transition: 0.3s;
+                height: 241px;
+                width: 170px;
+                border-radius: 0.6rem;
+                cursor: pointer;
+            }
+            .filmImg1 {
+                position: absolute;
+                left: 20px;
+                bottom: 23px;
+                width: 150px;
+                border-radius: 0.6rem;
+                object-fit: cover;
+                z-index: 20;
+                opacity: 0.7;
+            }
+            .filmImg2 {
+                position: absolute;
+                bottom: 58px;
+                left: 30px;
+                width: 130px;
+                object-fit: cover;
+                border-radius: 0.6rem;
+                z-index: 10;
+                opacity: 0.7;
+            }
+            .title {
+                background-color: #ff2e2e;
+                color: #fff;
+                position: absolute;
+                bottom: 50px;
+                left: 10px;
+                z-index: 40;
+                border-radius: 0 0.3333333333rem 0.3333333333rem 0;
+                box-shadow: 0.1rem 0.1rem 0.1rem rgb(0 0 0 / 30%);
+                padding: 3px 8px;
+                font-size: 12px;
+                font-weight: 700;
+                text-transform: uppercase;
+                transition: 0.3s;
+            }
+            .format {
+                background-color: #0093ff;
+                color: #fff;
+                position: absolute;
+                bottom: 27px;
+                left: 10px;
+                z-index: 40;
+                border-radius: 0 0.3333333333rem 0.3333333333rem 0;
+                box-shadow: 0.1rem 0.1rem 0.1rem rgb(0 0 0 / 30%);
+                padding: 3px 8px;
+                font-size: 12px;
+                font-weight: 700;
+                text-transform: uppercase;
+                transition: 0.3s;
+            }
+            .age {
+                background-color: rgba(48, 48, 48, 0.3);
+                color: #fff;
+                position: absolute;
+                bottom: 27px;
+                right: 15px;
+                z-index: 40;
+                border-radius: 5px;
+                box-shadow: 0.1rem 0.1rem 0.1rem rgb(0 0 0 / 30%);
+                padding: 8px 6px;
+                font-size: 14px;
+                font-weight: 700;
+                text-transform: uppercase;
+                transition: 0.3s;
+            }
+            .play {
+                display: none;
+                position: absolute;
+                top: 40%;
+                left: 40%;
+                z-index: 60;
+                font-size: 50px;
+                transition: 0.3s;
+            }
+        }
+    }
+}
+.filmCardTitle{
+    color: #fff;
+    margin: 5px 0 0 10px;
+    bottom: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 15px;
+    font-weight: 500;
+}
+.filmCardSubTitle{
+    color: #dddd;
+    margin: 5px 0 0 10px;
+    bottom: 0;
+    font-size: 12px;
+}

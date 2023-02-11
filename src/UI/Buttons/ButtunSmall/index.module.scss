@@ -1,0 +1,16 @@
+@import "../../../assets/scss/colors.scss";
+.btn {
+    background-color: $yellow;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid yellow;
+    color: $black;
+    transition: 0.5s;
+    &:hover {
+        color: $yellow;
+        background-color: $black;
+    }
+}

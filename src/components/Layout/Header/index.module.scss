@@ -1,0 +1,53 @@
+@import "../../../assets/scss/colors.scss";
+.header {
+    background-color: $black;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 30%);
+    z-index: 10;
+    padding: 20px 0;
+    .headerContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img {
+            width: 150px;
+            height: 25px;
+        }
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            a {
+                color: $white;
+                font-size: 15px;
+                font-weight: 500;
+                &:hover {
+                    color: $yellow;
+                }
+            }
+        }
+        .actions {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            svg {
+                color: $white;
+                font-size: 25px;
+                cursor: pointer;
+            }
+            .user {
+                background-color: $yellow;
+                border-radius: 100%;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 700;
+            }
+            p {
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+    }
+}

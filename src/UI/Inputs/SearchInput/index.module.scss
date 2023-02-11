@@ -1,0 +1,37 @@
+.drawer {
+    background-color: transparent !important;
+    height: 100px !important;
+    text-align: center;
+    .searchInput {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        .input {
+            padding: 10px;
+            width: 750px;
+            outline: none;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            background-color: #2d2c32;
+            caret-color: #fff;
+            color: #fff;
+        }
+        svg {
+            color: #fff;
+            font-size: 25px;
+            cursor: pointer;
+        }
+    }
+    .content {
+        background-color: #2d2c32;
+        position: absolute;
+        width: 750px;
+        top: 70px;
+        left: 48.6%;
+        transform: translateX(-50%);
+        border-radius: 5px;
+        padding: 10px;
+        color: #fff;
+    }
+}

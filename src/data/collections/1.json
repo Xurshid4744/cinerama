@@ -1,0 +1,124 @@
+{
+  "pageProps": {
+    "moduleId": "11",
+    "page": "1",
+    "dehydratedState": {
+      "mutations": [],
+      "queries": [
+        {
+          "state": {
+            "data": {
+              "pagesCount": 7,
+              "data": [
+                {
+                  "id": 154,
+                  "poster": "https://files.cinerama.uz/images/movie_collection/2023/01/06/5badaa8f-ec81-4c98-8f87-a0ef4a0bfab4.png",
+                  "title": "В Главной роли: Николас Кейдж",
+                  "description": "Фильмы Николас Кейджа, где он сыграл свои лучшие роли."
+                },
+                {
+                  "id": 121,
+                  "poster": "https://files.cinerama.uz/images/movie_collection/2022/08/01/0f5596bb-b46c-41dc-bd3b-e1e39f606d78.png",
+                  "title": "Коллекция PictureBox",
+                  "description": "PictureBox от студии Universal - суперколлекция фильмов и сериалов для всех, кто любит хорошее кино - теперь доступен на Cinerama"
+                },
+                {
+                  "id": 139,
+                  "poster": "https://files.cinerama.uz/images/movie_collection/2022/07/05/e9bbe849-547d-4ec7-89c8-49fa5396acae.png",
+                  "title": "Боевые исĸусства ĸаĸ танец тела",
+                  "description": "Фильмы про единоборства и самозащиту - разного часто восточноазиатсĸого происхождения."
+                },
+                {
+                  "id": 157,
+                  "poster": "https://files.cinerama.uz/images/movie_collection/2023/01/12/41d1c695-0bde-4bbe-9db0-8b7d70d14559.png",
+                  "title": "Подборка Старый Новый год!",
+                  "description": "Смотрите подборку онлайн в нашем интернет-кинотеатре – одна из самых теплых подборок на сегодняшний день."
+                },
+                {
+                  "id": 158,
+                  "poster": "https://files.cinerama.uz/images/movie_collection/2023/01/12/cf281c40-c040-4b04-9348-05fa48f40e03.png",
+                  "title": "My French Film Festival",
+                  "description": null
+                },
+                {
+                  "id": 118,
+                  "poster": "https://files.cinerama.uz/images/movie_collection/2022/08/01/5a344224-a684-4e7f-980a-47e1dc7343ec.png",
+                  "title": "Лучшие сериалы на Синерама",
+                  "description": "Когда речь идет об отличном сериале, зачем прерывать удовольствие? Здесь вы найдете самые лучшие сериалы нашего портала."
+                },
+                {
+                  "id": 150,
+                  "poster": "https://files.cinerama.uz/images/movie_collection/2022/11/29/8621e5a0-d59a-4b39-bc22-fd24ab83cbd3.png",
+                  "title": "Новогодняя подборка",
+                  "description": null
+                },
+                {
+                  "id": 153,
+                  "poster": "https://files.cinerama.uz/images/movie_collection/2022/12/23/baaf831d-af96-41bf-b843-c6d0706f61a3.png",
+                  "title": "Подборка фильмов Amediateka",
+                  "description": "Не можете определиться с выбором фильма для домашнего просмотра? Наша подборки фильмов специально для вас."
+                },
+                {
+                  "id": 151,
+                  "poster": "https://files.cinerama.uz/images/movie_collection/2022/11/25/3fc227b2-773d-4900-9bef-05b6ba5d8481.png",
+                  "title": "В Главной роли: Дуэйн Джонсон",
+                  "description": "Подборка с Дуэйн Джонсоном - это  собрание фильмов, в которых Дуэйн сыграл главные роли."
+                },
+                {
+                  "id": 152,
+                  "poster": "https://files.cinerama.uz/images/movie_collection/2022/11/25/565760a8-e488-440f-be35-49f7fe462569.png",
+                  "title": "Сериалы Amediateka",
+                  "description": "Смотрите любимые сериалы от Амедиатека онлайн без рекламы на Cinerama. Новые зарубежные сериалы с высоким рейтингом в хорошем качестве HD."
+                },
+                {
+                  "id": 149,
+                  "poster": "https://files.cinerama.uz/images/movie_collection/2022/11/25/ea90cab7-f809-4010-93ef-ca61813c78fd.png",
+                  "title": "Подборка исторических фильмов",
+                  "description": "Смотрите подборку Исторические фильмы онлайн на Cinerama. Мы старались и делали её для Вас!"
+                },
+                {
+                  "id": 114,
+                  "poster": "https://files.cinerama.uz/images/movie_collection/2022/08/01/1ce1c799-0b7b-4b07-8255-7d43762a2f7d.png",
+                  "title": "В Главной роли: Роберт Де Ниро",
+                  "description": "Американский актёр, продюсер и режиссёр. Наиболее известен своей работой в криминальных фильмах и триллерах."
+                },
+                {
+                  "id": 119,
+                  "poster": "https://files.cinerama.uz/images/movie_collection/2022/08/01/83e25a58-ee61-4043-8763-8e8796a7a650.png",
+                  "title": "Приключенческие фильмы",
+                  "description": "Лучший способ спонтанно отправиться в незабываемое путешествие, при этом даже не покидая собственной квартиры"
+                },
+                {
+                  "id": 146,
+                  "poster": "https://files.cinerama.uz/images/movie_collection/2022/08/08/b1e05521-9240-42f5-aada-931f74a32669.png",
+                  "title": "Сериалы от more.tv",
+                  "description": "На сайте собраны лучшие Сериалы от more.tv. Просмотр онлайн сериалов стал намного удобнее!"
+                },
+                {
+                  "id": 116,
+                  "poster": "https://files.cinerama.uz/images/movie_collection/2022/08/01/49227be3-0be6-4adc-862e-da7761810bd6.png",
+                  "title": "В Главной роли: Сильвестр Сталлоне",
+                  "description": "Американский актёр, кинорежиссёр, сценарист и продюсер. За свою актёрскую карьеру снялся более чем в 50 фильмах"
+                }
+              ]
+            },
+            "dataUpdateCount": 1,
+            "dataUpdatedAt": 1676007834710,
+            "error": null,
+            "errorUpdateCount": 0,
+            "errorUpdatedAt": 0,
+            "fetchFailureCount": 0,
+            "fetchMeta": null,
+            "isFetching": false,
+            "isInvalidated": false,
+            "isPaused": false,
+            "status": "success"
+          },
+          "queryKey": ["collections", "11", "1"],
+          "queryHash": "[\"collections\",\"11\",\"1\"]"
+        }
+      ]
+    }
+  },
+  "__N_SSG": true
+}

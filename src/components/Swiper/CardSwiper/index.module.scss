@@ -1,0 +1,18 @@
+.swiperContainer {
+    position: relative;
+    .swiperTitle {
+        position: absolute;
+        top: 50px;
+        left: 25px;
+        h6 {
+            font-size: 24px;
+            color: #fff;
+        }
+    }
+    .swiper {
+        padding-top: 100px;
+        .swiperSlide{
+            display: flex;
+        }
+    }
+}
