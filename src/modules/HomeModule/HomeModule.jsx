@@ -9,7 +9,7 @@ const HomeModule = () => {
     <>
       <MainSwiper />
       <CardSwiper name={"Сериалы"} title={"series"} />
-      <CollectionCard />
+      {/* <CollectionCard /> */}
       <CardSwiper name={"Фильмы"} />
       <CardSwiper name={"Мультфильмы"} />
       <CardSwiper name={"Узбеккино"} />
