@@ -2,6 +2,7 @@ import { configureStore } from "@reduxjs/toolkit";
 import { authApi } from "./endpoints/auth";
 import { authorized } from "./endpoints/authorizedRequests";
 import { getChanels } from "./endpoints/chanels";
+import { filter } from "./endpoints/filter";
 import { getMeApi } from "./endpoints/get-me";
 import { getMovies } from "./endpoints/movies";
 
@@ -12,6 +13,7 @@ export const store = configureStore({
     [getMovies.reducerPath]: getMovies.reducer,
     [getChanels.reducerPath]: getChanels.reducer,
     [authorized.reducerPath]: authorized.reducer,
+    [filter.reducerPath]: filter.reducer,
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware()
@@ -19,5 +21,6 @@ export const store = configureStore({
       .concat(getMeApi.middleware)
       .concat(getChanels.middleware)
       .concat(getMovies.middleware)
-      .concat(authorized.middleware),
+      .concat(authorized.middleware)
+      .concat(filter.middleware),
 });
