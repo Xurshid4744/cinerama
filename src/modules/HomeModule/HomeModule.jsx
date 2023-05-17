@@ -10,10 +10,10 @@ const HomeModule = () => {
       <MainSwiper />
       <CardSwiper name={"Сериалы"} title={"series"} />
       {/* <CollectionCard /> */}
-      <CardSwiper name={"Фильмы"} />
+      {/* <CardSwiper name={"Фильмы"} />
       <CardSwiper name={"Мультфильмы"} />
       <CardSwiper name={"Узбеккино"} />
-      <CardSwiper name={"Аниме"} />
+      <CardSwiper name={"Аниме"} /> */}
     </>
   );
 };
